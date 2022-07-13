@@ -146,18 +146,20 @@ body {
 }
 
 .main-border-button a {
-  font-size: 13px;
+  font-size: 17px;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #577ef9;
   padding: 12px 25px;
   display: inline-block;
   font-weight: 500;
   transition: all .3s;
+  background: #256eff;
+  text-transform: uppercase;
 }
 
 .main-border-button a:hover {
-  background-color: #fff;
-  color: #808080;
+  background-color: #1a5bdc;
+  color: #fff;
 }
 
 .main-white-button a {
@@ -684,7 +686,12 @@ banner
   display: block;
   margin-bottom: 30px;
 }
-
+.thumb.big-banner:hover .inner-content{
+  display: block !important;
+}
+.thumb:hover .inner-content{
+  display: none;
+}
 .main-banner .right-content .right-first-image {
   margin-bottom: 28.5px;
 }
@@ -727,7 +734,7 @@ banner
   left: 15px;
   bottom: 15px;
   text-align: center;
-  background-color: rgba(42,42,42,.97);
+  background-color: rgba(42,42,42,.4);
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s;
@@ -1381,7 +1388,7 @@ Social
   right: 0;
   top: 0;
   width: 100%;
-  background-color: rgba(0,0,0,0.85);
+  background-color: rgba(11,47,117,0.7);
   opacity: 0;
   visibility: hidden;
   transition: all .3s;
